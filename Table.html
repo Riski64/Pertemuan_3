@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Tabel Data Peserta</title>
+</head>
+<body>
+  <h1>Membuat Tabel</h1>
+  
+  <!-- Format:
+       <table> penambahan atribut border="1" untuk membuat baris dan atribut cellspacing="value" dan cellpading="value" untuk merapihkan table
+         <tr> ==> membuat baris (ke bawah)
+           <td>Konten</td> == menbuat baris (ke samping)
+         </tr>
+       </table>
+       gabung baris/merge row (ke bawah) menggunakan atribut rowspan
+       gabung kolom menggunakan (ke samping) atribut colspan
+       <th></tg> untuk tulisan tebal dan rata tengah
+  
+  -->
+  <table border="1" cellspacing="3" cellpading="5">
+    <tr>
+      <th rowspan="2">No.</th>
+      <th colspan="2">Nama Peserta</th>
+      <th rowspan="2">Alamat</th>
+    </tr>
+    
+    <tr>
+      <th>Depan</th>
+      <th>Belakang</th>
+    </tr>
+    
+    <tr>
+      <td>1</td>
+      <td>Riski</td>
+      <td>Darmawan</td>
+      <td>Jakarta</td>
+    </tr>
+    
+    <tr>
+      <td>2</td>
+      <td>Arya</td>
+      <td>Gunawan</td>
+      <td>Tanggerang</td>
+    </tr>
+    
+    <tr>
+      <td>3</td>
+      <td>Nana</td>
+      <td>Suryana</td>
+      <td>Bali</td>
+    </tr>
+  </table>
+  
+</body>
+</html>
